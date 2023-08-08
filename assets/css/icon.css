@@ -1,0 +1,44 @@
+.profile figure {
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-radius: 17px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div figure {
+    width: 67px;
+    height: 38px;
+    overflow: hidden;
+}
+
+menu ul li:nth-child(1)::before {
+    content: url(../icons/General.svg);
+}
+
+menu ul li:nth-child(2)::before {
+    content: url(../icons/Password.svg);
+}
+
+menu ul li:nth-child(3)::before {
+    content: url(../icons/Invitations.svg);
+}
+
+menu ul li:nth-child(4)::before {
+    content: url(../icons/Billing.svg);
+
+}
+
+menu ul li:nth-child(5)::before {
+    content: url(../icons/Apps.svg);
+}
+
+nav>button::before {
+    content: url(../icons/Log-out.svg);
+}
